@@ -7,4 +7,5 @@ import json
 from resquest_football_data import request_api, chamar_api_key
 
 api_token= chamar_api_key()
-dados = request_api(api_token, 'teams/')
+dados = request_api(api_token, 'teams')
+
