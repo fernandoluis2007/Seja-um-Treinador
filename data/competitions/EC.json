@@ -1,0 +1,358 @@
+{
+  "area": {
+    "id": 2077,
+    "name": "Europe",
+    "code": "EUR",
+    "flag": "https://crests.football-data.org/EUR.svg"
+  },
+  "id": 2018,
+  "name": "European Championship",
+  "code": "EC",
+  "type": "CUP",
+  "emblem": "https://crests.football-data.org/ec.png",
+  "currentSeason": {
+    "id": 1537,
+    "startDate": "2024-06-14",
+    "endDate": "2024-07-14",
+    "currentMatchday": 7,
+    "winner": {
+      "id": 760,
+      "name": "Spain",
+      "shortName": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg",
+      "address": "Ramón y Cajal, s/n Las Rozas 28230",
+      "website": "http://www.rfef.es",
+      "founded": 1909,
+      "clubColors": "Red / Blue / Yellow",
+      "venue": "Estadio Alfredo Di Stéfano",
+      "lastUpdated": "2021-05-26T09:46:48Z"
+    }
+  },
+  "seasons": [
+    {
+      "id": 1537,
+      "startDate": "2024-06-14",
+      "endDate": "2024-07-14",
+      "currentMatchday": 7,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "address": "Ramón y Cajal, s/n Las Rozas 28230",
+        "website": "http://www.rfef.es",
+        "founded": 1909,
+        "clubColors": "Red / Blue / Yellow",
+        "venue": "Estadio Alfredo Di Stéfano",
+        "lastUpdated": "2021-05-26T09:46:48Z"
+      }
+    },
+    {
+      "id": 507,
+      "startDate": "2021-06-11",
+      "endDate": "2021-07-11",
+      "currentMatchday": 7,
+      "winner": {
+        "id": 784,
+        "name": "Italy",
+        "shortName": "Italy",
+        "tla": "ITA",
+        "crest": "https://crests.football-data.org/784.svg",
+        "address": "Via Gregorio Allegri, 14 / CP 2450 Roma 00198",
+        "website": "http://www.figc.it",
+        "founded": 1898,
+        "clubColors": "Blue / White",
+        "venue": "Stadio Artemio Franchi",
+        "lastUpdated": "2021-05-26T10:29:34Z"
+      }
+    },
+    {
+      "id": 20,
+      "startDate": "2016-06-10",
+      "endDate": "2016-07-10",
+      "currentMatchday": 3,
+      "winner": {
+        "id": 765,
+        "name": "Portugal",
+        "shortName": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg",
+        "address": "Rua Alexandre Herculano, 58 Lisboa 1250-012",
+        "website": "http://www.fpf.pt",
+        "founded": 1914,
+        "clubColors": "Red / Green",
+        "venue": "Estádio José Alvalade",
+        "lastUpdated": "2021-05-26T09:46:58Z"
+      }
+    },
+    {
+      "id": 674,
+      "startDate": "2012-06-08",
+      "endDate": "2012-07-02",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "address": "Ramón y Cajal, s/n Las Rozas 28230",
+        "website": "http://www.rfef.es",
+        "founded": 1909,
+        "clubColors": "Red / Blue / Yellow",
+        "venue": "Estadio Alfredo Di Stéfano",
+        "lastUpdated": "2021-05-26T09:46:48Z"
+      }
+    },
+    {
+      "id": 673,
+      "startDate": "2008-06-07",
+      "endDate": "2008-06-29",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "address": "Ramón y Cajal, s/n Las Rozas 28230",
+        "website": "http://www.rfef.es",
+        "founded": 1909,
+        "clubColors": "Red / Blue / Yellow",
+        "venue": "Estadio Alfredo Di Stéfano",
+        "lastUpdated": "2021-05-26T09:46:48Z"
+      }
+    },
+    {
+      "id": 672,
+      "startDate": "2004-06-12",
+      "endDate": "2004-07-04",
+      "currentMatchday": null,
+      "winner": {
+        "id": 775,
+        "name": "Greece",
+        "shortName": "Greece",
+        "tla": "GRE",
+        "crest": "https://crests.football-data.org/775.svg",
+        "address": "Goudi Park / PO Box 14161 Athína 11510",
+        "website": "http://www.epo.gr",
+        "founded": 1926,
+        "clubColors": "Blue / White",
+        "venue": "Olympiako Stadio Spyros Louis",
+        "lastUpdated": "2021-04-05T07:08:56Z"
+      }
+    },
+    {
+      "id": 671,
+      "startDate": "2000-06-10",
+      "endDate": "2000-07-02",
+      "currentMatchday": null,
+      "winner": {
+        "id": 773,
+        "name": "France",
+        "shortName": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "address": "87 Boulevard de Grenelle Paris 75738",
+        "website": "http://www.fff.fr",
+        "founded": 1919,
+        "clubColors": "Blue / White / Red",
+        "venue": "Stade de France",
+        "lastUpdated": "2021-05-26T09:47:59Z"
+      }
+    },
+    {
+      "id": 670,
+      "startDate": "1996-06-08",
+      "endDate": "1996-06-30",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+        "website": "http://www.dfb.de",
+        "founded": 1900,
+        "clubColors": "White / Black",
+        "venue": "RheinEnergieSTADION",
+        "lastUpdated": "2021-05-26T09:46:39Z"
+      }
+    },
+    {
+      "id": 661,
+      "startDate": "1992-06-10",
+      "endDate": "1992-06-26",
+      "currentMatchday": null,
+      "winner": {
+        "id": 782,
+        "name": "Denmark",
+        "shortName": "Denmark",
+        "tla": "DEN",
+        "crest": "https://crests.football-data.org/782.svg",
+        "address": "House of Football, DBU Allé 1 Brøndby 2605",
+        "website": "http://www.dbu.dk",
+        "founded": 1889,
+        "clubColors": "Red / White",
+        "venue": "Telia Parken",
+        "lastUpdated": "2021-05-26T10:45:14Z"
+      }
+    },
+    {
+      "id": 662,
+      "startDate": "1988-06-10",
+      "endDate": "1988-06-25",
+      "currentMatchday": null,
+      "winner": {
+        "id": 756,
+        "name": "Netherlands",
+        "shortName": "Netherlands",
+        "tla": "NLD",
+        "crest": "https://crests.football-data.org/756.png",
+        "address": "Woudenbergseweg 56-58 / Postbus 515 Zeist 3700 AM",
+        "website": "http://www.knvb.nl",
+        "founded": 1889,
+        "clubColors": "Orange / White / Blue",
+        "venue": "Stadion De Blauwe Kei",
+        "lastUpdated": "2023-06-02T09:57:15Z"
+      }
+    },
+    {
+      "id": 663,
+      "startDate": "1984-06-12",
+      "endDate": "1984-06-27",
+      "currentMatchday": null,
+      "winner": {
+        "id": 773,
+        "name": "France",
+        "shortName": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "address": "87 Boulevard de Grenelle Paris 75738",
+        "website": "http://www.fff.fr",
+        "founded": 1919,
+        "clubColors": "Blue / White / Red",
+        "venue": "Stade de France",
+        "lastUpdated": "2021-05-26T09:47:59Z"
+      }
+    },
+    {
+      "id": 664,
+      "startDate": "1980-06-11",
+      "endDate": "1980-06-22",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+        "website": "http://www.dfb.de",
+        "founded": 1900,
+        "clubColors": "White / Black",
+        "venue": "RheinEnergieSTADION",
+        "lastUpdated": "2021-05-26T09:46:39Z"
+      }
+    },
+    {
+      "id": 665,
+      "startDate": "1976-06-16",
+      "endDate": "1976-06-20",
+      "currentMatchday": null,
+      "winner": {
+        "id": 822,
+        "name": "Czechoslovakia",
+        "shortName": null,
+        "tla": null,
+        "crest": "https://crests.football-data.org/798.svg",
+        "address": "null null null",
+        "website": null,
+        "founded": null,
+        "clubColors": null,
+        "venue": null,
+        "lastUpdated": "2024-06-14T10:57:14Z"
+      }
+    },
+    {
+      "id": 666,
+      "startDate": "1972-06-14",
+      "endDate": "1972-06-18",
+      "currentMatchday": null,
+      "winner": {
+        "id": 759,
+        "name": "Germany",
+        "shortName": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "address": "Otto-Fleck-Schneise 6 / Postfach 710265 Frankfurt am Main 60492",
+        "website": "http://www.dfb.de",
+        "founded": 1900,
+        "clubColors": "White / Black",
+        "venue": "RheinEnergieSTADION",
+        "lastUpdated": "2021-05-26T09:46:39Z"
+      }
+    },
+    {
+      "id": 667,
+      "startDate": "1968-06-05",
+      "endDate": "1968-06-10",
+      "currentMatchday": null,
+      "winner": {
+        "id": 784,
+        "name": "Italy",
+        "shortName": "Italy",
+        "tla": "ITA",
+        "crest": "https://crests.football-data.org/784.svg",
+        "address": "Via Gregorio Allegri, 14 / CP 2450 Roma 00198",
+        "website": "http://www.figc.it",
+        "founded": 1898,
+        "clubColors": "Blue / White",
+        "venue": "Stadio Artemio Franchi",
+        "lastUpdated": "2021-05-26T10:29:34Z"
+      }
+    },
+    {
+      "id": 668,
+      "startDate": "1964-06-17",
+      "endDate": "1964-06-21",
+      "currentMatchday": null,
+      "winner": {
+        "id": 760,
+        "name": "Spain",
+        "shortName": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "address": "Ramón y Cajal, s/n Las Rozas 28230",
+        "website": "http://www.rfef.es",
+        "founded": 1909,
+        "clubColors": "Red / Blue / Yellow",
+        "venue": "Estadio Alfredo Di Stéfano",
+        "lastUpdated": "2021-05-26T09:46:48Z"
+      }
+    },
+    {
+      "id": 669,
+      "startDate": "1960-07-06",
+      "endDate": "1960-07-10",
+      "currentMatchday": null,
+      "winner": {
+        "id": 9166,
+        "name": "Soviet Union",
+        "shortName": "USSR",
+        "tla": "USSR",
+        "crest": "https://crests.football-data.org/9166.svg",
+        "address": "null null null",
+        "website": null,
+        "founded": null,
+        "clubColors": null,
+        "venue": null,
+        "lastUpdated": "2020-11-16T09:03:03Z"
+      }
+    }
+  ],
+  "lastUpdated": "2024-09-13T17:04:30Z"
+}
