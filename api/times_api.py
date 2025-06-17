@@ -5,51 +5,25 @@ import json
 
 # Importar a função base request para consumir API.
 from resquest_football_data import request_api, chamar_api_key
-'''
 
+'''
 api_token= chamar_api_key()
-dados = request_api(api_token, 'teams')
-
+dados = request_api(api_token, 'competitions/BSA/teams', False)
 '''
-# Ler o arquivo .json ->
-with open('../data/competitions/BSA.json', 'r', encoding='utf-8') as file:
+
+
+# Armazenar os nomes dos times, dos arquvios lidos do .json ->
+lista_completa_times_br = []
+
+# Ler o arquivo .json -> e armazenar os times lidos dentro de uma lista:
+with open('../data/competitions/teams.json', 'r', encoding='utf-8') as file:
     times_brasileiro = json.load(file)
-    for x in times_brasileiro["seasons"]:
-        if x["winner"] != None:
-            dados = x["winner"]
-            for time in dados:
-                print(dados["id"], dados["tla"], dados["name"])
+    lista_completa_times_br = []
+    for x in times_brasileiro["teams"]: # Chave de acesso: ["teams"].
+        lista_completa_times_br.append(x["name"])
         
+print(lista_completa_times_br)
+# Teste --> print(lista_completa_times_br).
 
-#
-#for time in times_brasileiro['']
-#           print(f'Nome Clube: {times_brasileiro["name"]}\n Id do clube: {times_brasileiro["id"]}')
-#
-
-            
-
-
-
-
-# Armazenar os arquvios lidos do .json ->
-def armazenar_times_lista(id_time, nome, tla, fundado_em, estadio, endereco):
-    dicionario_times_brasileiro = {
-        'id': [id_time],
-        'nome': [nome],
-        'sigla': [tla],
-        'fundado': [fundado_em],
-        'estadio': [estadio],   
-        'endereco': [endereco]
-    }
-
-    # f-strings, para retornar os dados do time ->
-    mensagem = (
-        f'Id do clube: {id_time}\n'
-        f'Nome do clube: {nome}\n'
-        f'Sigla do clube: {tla}\n'
-        f'Clube fundado em: {fundado_em}\n'
-        f'Estádio do clube: {estadio}\n'
-        f'Endereço do Clube: {endereco}\n'
-    )
-
-    return mensagem
+# lista_completa_times_br.append(x["name"])
+       
