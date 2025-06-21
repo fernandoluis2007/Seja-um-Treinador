@@ -26,7 +26,9 @@ def puxar_nome_times(pasta, arquivo): # O parâmetro é o nome do arquvio /-> ex
             print("A chave 'teams' não existe no arquivo!")
 
     return lista_completa_times_liga
-           
+
+    
+
 times_brasileirao = puxar_nome_times("BSA","teams")
 times_bundelisga = puxar_nome_times("BL1", "teams")
 times_champions_league = puxar_nome_times("CL", "teams")
