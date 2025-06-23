@@ -7,8 +7,10 @@ import os
 from functools import lru_cache
 from collections import Counter
 
+from models.jogador import Jogador
+
 # Importando a função de resgatar o valor da key de acesso.
-from resquest_football_data import chamar_api_key
+from api.resquest_football_data import chamar_api_key
 api_token_key = chamar_api_key()
 
 
@@ -53,13 +55,15 @@ def buscar_dados_jogador(id_jogador: int):
 
             print(f"\nTime identificado: {time_do_jogador}")
             print(f"Vitórias: {vitorias}, Empates: {empate}, Derrotas: {derrotas}")
+        
+            return dados, vitorias, empate, derrotas, time_do_jogador
         else:
             print(f"Erro.")
-            return dados
+            return None, 0, 0, 0, ""
 
     except requests.RequestException as e:
         print(f"Falha na Requesitação: {e}")
-        return {}
+        return None, 0, 0, 0, ""
 
 
 
@@ -75,4 +79,36 @@ def vereficar_time_jogador(data):
     time_mais_frequente = contagem_times.most_common(1)[0][0]
     return time_mais_frequente
 
-jogador_vitor_roque = buscar_dados_jogador(181439)
+
+def calcular_over_jogador(vitorias, derrotas, empates):
+        total = vitorias + derrotas + empates
+        medi_over = (vitorias * 3 + empates)/ total
+
+        if medi_over >= 3:
+            medi_over = 80
+            print("O jogador tem Overall 80!")
+        elif medi_over >= 2:
+            medi_over = 75
+            print("O jogador tem Overall 75!")
+        elif medi_over >= 1:
+            medi_over = 70
+            print("O jogador tem Overall 70!") 
+        else:
+            medi_over = 65
+            print("O jogador tem Overall 65!")
+
+        return medi_over
+
+
+
+# Busca os dados e estatísticas do jogador
+dados, vitorias, derrotas, empates, time = buscar_dados_jogador(181439)
+
+# Uma instância de Jogador
+jogador_vitor_roque = Jogador("Vitor Roque", 181439, time, dados)
+
+overall = calcular_over_jogador(vitorias, derrotas, empates)
+jogador_vitor_roque.overall = overall
+
+print(jogador_vitor_roque)
+
