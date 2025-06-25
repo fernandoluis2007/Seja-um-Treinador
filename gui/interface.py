@@ -1,7 +1,9 @@
+'''
 from tkinter import *
-import tkinter as tk
 from tkinter.ttk import * # Conjunto de widgets temáticos do Tk.
+'''
 
+import customtkinter as ctk
 
 def fechar_janela(janela):
     janela.destroy()
@@ -9,16 +11,25 @@ def fechar_janela(janela):
 
 def interface_grafica():
 
-    janela = Tk()
-    janela.geometry("400x250") # Tamanho da janela.
+    janela = ctk.CTk()
+    janela.geometry("600x450") # Tamanho da janela.
     janela.title("Simulador Treinador") # Título da janela.
+    janela.grid_columnconfigure(0, weight=1)
 
-    label = tk.Label(janela, text="Bem vindo ao Simulador de treinador!")
-    label.grid(column=0, row=0)
 
-    botao_sair = tk.Button(janela, text="Sair", command=lambda: fechar_janela(janela))
+    label = ctk.CTkLabel(janela, text="Bem vindo ao Simulador de treinador!")
+    label.grid(column=0, row=0, padx=20, pady=20)
+
+    botao_iniciar = ctk.CTkButton(janela, text="Iniciar")
+    botao_iniciar.grid(column=0, row=1, padx=20, pady=20)
+
+    botao_config = ctk.CTkButton(janela, text="Configurações")
+    botao_config.grid(column=0, row=2, padx=20, pady=20)
+
+    botao_sair = ctk.CTkButton(janela, text="Sair", command=lambda: fechar_janela(janela))
     # Função anônima que só será executada quando o botão for clicado.
-    botao_sair.grid(column=0, row=1)
+    botao_sair.grid(column=0, row=3, padx=20, pady=20)
+
 
 
     janela.mainloop()
